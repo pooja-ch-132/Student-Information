@@ -19,7 +19,7 @@ function App() {
         Student Information Management System
       </h3>
       <div className="container-fluid">
-        <BrowserRouter basename="Mern-project">
+        <BrowserRouter basename="Student-Information">
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/login" element={<Login />} />
